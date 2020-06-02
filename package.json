@@ -1,0 +1,49 @@
+{
+  "name": "hd-ui-kit",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name index --dest package components/index.js",
+    "release": "npm run build && node release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hd-efe/hdui"
+  },
+  "keywords": [
+    "ui",
+    "hd",
+    "hundun",
+    "vue"
+  ],
+  "author": "maixiaojie",
+  "homepage": "https://hd-efe.github.io/hdui/",
+  "files": [
+    "components",
+    "package"
+  ],
+  "style": "package/index.css",
+  "main": "components/index.js",
+  "dependencies": {
+    "better-scroll": "^1.15.2",
+    "core-js": "^3.6.5",
+    "gh-pages": "^3.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-router": "^3.3.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
