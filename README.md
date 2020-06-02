@@ -1,24 +1,21 @@
-# hd-ui
+# hd-ui-kit
 
-## Project setup
-```
-yarn install
-```
+## Components
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### Btn
 
-### Compiles and minifies for production
-```
-yarn build
-```
+按钮
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Course
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+课程
+
+### Live 
+
+直播
+
+### Slide
+
+slide
+
+## changeLog

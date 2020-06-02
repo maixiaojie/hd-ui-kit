@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="hd-bar">
-      <h1>hd-ui</h1>
+      <h1>hd-ui-kit</h1>
     </header>
     <section class="hd-content">
       <ul class="list-view-wrapper" :key="module.name" v-for="module in components" >
